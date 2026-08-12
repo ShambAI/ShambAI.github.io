@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: gray
+  color: #f7f7f8
 
 # SEO
 marketing:
