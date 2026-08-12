@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Nathan Painchaud
+title: Kazeem Shamba
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Nathan
-last_name: Painchaud
+first_name: Kazeem
+last_name: Shamba
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,50 +23,40 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Postdoctoral researcher
+role: Doctoral researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: CREATIS (INSA Lyon)
-    url: https://www.creatis.insa-lyon.fr/site/en
+  - name: NorwAI (NTNU Trondheim)
+    url: https://www.ntnu.edu/norwai/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:nathan.painchaud@insa-lyon.fr'
+    url: 'mailto:abdul.k.shamba@ntnu.no'
     label: E-mail me
   - icon: brands/github
-    url: https://github.com/nathanpainchaud
+    url: https://github.com/ShambAI
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/nathanpainchaud/
+    url: https://www.linkedin.com/in/abdul-kazeem-shamba/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=f_NJWYsAAAAJ
+    url: https://scholar.google.com/citations?hl=en&user=mrQH_98AAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-8269-5704
 
 interests:
   - Representation Learning
-  - Graph Learning
-  - Population Representation
-  - Quantitative Medical Image Analysis
-  - Multimodal Medical Data Fusion
+  - Self-supervised learning
+  - Temporal Features/Time Series
+  - Robot Learning
 
 education:
-  - area: Assistant Professor Qualification
-    institution: Conseil National des Universités (CNU)
+  - area: PhD Computer Science
+    institution: NTNU Trondheim (Norway)
     icon: ""
-    date_start: 2025-03-14
-    date_end: 2029-12-31
-    summary: |
-      Qualified for sections:
-      * 27 (Computer science)
-      * 61 (Computer engineering, automation and signal processing)
-  - area: Ph.D. Computer Science (Joint Supervision)
-    institution: Université de Sherbrooke (Canada) / INSA Lyon (France)
-    icon: ""
-    date_start: 2020-09-01
-    date_end: 2024-05-06
+    date_start: 2023-09-01
+    date_end: 2027-09-01
     summary: |
       Thesis on _Deep manifold learning for improved high blood pressure characterization using echocardiography_.
 
@@ -83,11 +73,11 @@ education:
     # button:
     #   text: 'Read Thesis (French version)'
     #   url: 'https://theses.hal.science/tel-04819640'
-  - area: M.Sc. Computer Science
-    institution: Université de Sherbrooke (Canada)
+  - area: MS. Electrical and Computer Engineering
+    institution: Carnegie Mellon University
     icon: ""
-    date_start: 2019-05-01
-    date_end: 2020-08-31
+    date_start: 2020-07-01
+    date_end: 2021-05-21
     summary: |
       Unfinished due to skipping to Ph.D in September 2020.
 
@@ -95,11 +85,11 @@ education:
 
       Advisor:
       * [Pierre-Marc Jodoin](https://info.usherbrooke.ca/pmjodoin/index.html) (Full Professor -- Université de Sherbrooke)
-  - area: B.Sc. Computer Science
-    institution: Université de Sherbrooke (Canada)
+  - area: BS Electronic and Electrical Engineering
+    institution: Obafemi Awolowo University (Nigeria)
     icon: ""
-    date_start: 2016-01-01
-    date_end: 2019-04-30
+    date_start: 2013-02-20
+    date_end: 2018-02-20
     summary: |
       Valedictorian (GPA: 4.28/4.3)
 
