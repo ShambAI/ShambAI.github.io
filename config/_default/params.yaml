@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: zinc
+  color: cyan
 
 # SEO
 marketing:
@@ -36,7 +36,8 @@ header:
     show_theme_chooser: true
     logo:
       text: Kazeem Shamba
-      image: 'logo.png'
+      image: logo_small.png
+      image_size: 35
 
 # Site footer
 footer:
