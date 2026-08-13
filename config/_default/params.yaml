@@ -8,6 +8,9 @@ appearance:
   mode: system
   color: cyan
 
+icon:
+  favicon: "media/icons/logo_small.png"
+
 # SEO
 marketing:
   seo:
@@ -36,8 +39,6 @@ header:
     show_theme_chooser: true
     logo:
       text: Kazeem Shamba
-      image: logo_small.png
-      image_size: 35
 
 # Site footer
 footer:
