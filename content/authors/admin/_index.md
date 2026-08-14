@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Doctoral Researcher
+role: Doctoral Researcher (PhD)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -42,8 +42,10 @@ profiles:
     url: https://www.linkedin.com/in/abdul-kazeem-shamba/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?hl=en&user=mrQH_98AAAAJ
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0001-8269-5704
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0001-8269-5704
+  - icon: arrow-down-tray
+    url: uploads/painchaud_nathan_cv.pdf
 
 interests:
   - Representation Learning
@@ -58,40 +60,61 @@ education:
     date_start: 2023-09-01
     date_end: 2027-09-01
     summary: |
-      Thesis on _Deep manifold learning for improved high blood pressure characterization using echocardiography_.
+      Thesis on _Representation Learning for Predictive Analytics and Reasoning in Multimodal Sensor Data_.
 
       Advisors:
-      * [Pierre-Marc Jodoin](https://info.usherbrooke.ca/pmjodoin/index.html) (Full Professor -- Université de Sherbrooke)
-      * [Olivier Bernard](https://www.creatis.insa-lyon.fr/~bernard/index.html) (Full Professor -- INSA Lyon)
-      * [Nicolas Duchateau](https://www.creatis.insa-lyon.fr/~duchateau/) (Associate Professor -- Université Lyon 1)
+      * [Kerstin Bach](https://www.ntnu.edu/employees/kerstin.bach) (Full Professor -- NTNU Trondheim)
+      * [Gavin Taylor](https://www.usna.edu/Users/cs/taylor/) (Full Professor -- US Naval Academy Lyon)
+      * [Erlend Aune](https://www.ntnu.edu/employees/erlend.aune) (Associate Professor -- NTNU Trondheim)
       
-      Mention: _Summa cum laude_
+      Mention: _NorwAI 2024 Best Poster Award_
     button:
-      text: 'Read Thesis (Savoir UdeS)'
+      text: 'Read Thesis'
       url: 'http://hdl.handle.net/11143/21647'
     # TODO: Find how to have more than one button
     # button:
     #   text: 'Read Thesis (French version)'
     #   url: 'https://theses.hal.science/tel-04819640'
-  - area: MS. Electrical and Computer Engineering
+
+  - area: MS Marine and Maritime Intelligent Robotics
+    institution: Université de Toulon and NTNU
+    icon: ""
+    date_start: 2021-09-01
+    date_end: 2023-09-01
+    summary: |
+
+      Thesis on _Generating Realistic Underwater Images Using Contrastive Learning_ (Grade A).
+
+      Top Courses: Visual Computing Fundamentals, Autonomous Marine Systems, Introduction to Visual SLAM, Fundamentals of Marine Environment, Underwater Acoustics, Modeling of Marine Systems, Artificial Intelligence, Advanced Control of Autonomous Syt., Data-Driven Machine Perception, Marine Localization and Mapping, Autonomy in Subsea Operations, and Intelligent Robotics
+
+
+    button:
+      text: 'Read Thesis'
+      url: 'https://nva.sikt.no/registration/0198e79eb6c3-7a8ad2d6-8c19-431b-955e-d70f8ab6f4ef'
+
+  - area: MS Electrical and Computer Engineering
     institution: Carnegie Mellon University
     icon: ""
     date_start: 2020-07-01
     date_end: 2021-05-21
     summary: |
-      Unfinished due to skipping to Ph.D in September 2020.
+      Specialization: Applied Machine Learning
 
-      Subject on _Segmentation of MRI and ultrasound cardiac medical images with anatomical guarantees_.
+      Top Courses: Applied Stochastic Process, Data Inference and Applied ML, ML for Signal Procs, Applied Computer Vision, Introduction to Deep Learning, and Intro. to Cognitive Robotics
 
-      Advisor:
-      * [Pierre-Marc Jodoin](https://info.usherbrooke.ca/pmjodoin/index.html) (Full Professor -- Université de Sherbrooke)
+      TA Fall 2021 Applied Computer Vision  18799-RW under late [Dr. Suryaprakash "Surya" Kompalli](https://www.ece.cmu.edu/directory/bios/kompalli-suryaprakash.html)
+
   - area: BS Electronic and Electrical Engineering
     institution: Obafemi Awolowo University (Nigeria)
     icon: ""
     date_start: 2013-02-20
     date_end: 2018-02-20
     summary: |
-      Valedictorian (GPA: 4.28/4.3)
+      Grade (Last 60 credit units/hours): 4.82/5.00 - Top 2%
+
+      Thesis on _Design and Development of an Arm Prosthesis using Electromyogram Control_ (Grade A).
+
+      Top Courses: Microelectronic Devices and Circuits, Digital Signal Processing, Digital Circuit Analysis and Design, Measurement and Instrumentation, Control System Engineering, Probability and Stochastic Process, Nanotechnology and Nanoelectronics, Applied Quantum Mechanics, Industrial Law and Management and Intelligent Control
 
 work:
   - position: Postdoctoral Researcher
