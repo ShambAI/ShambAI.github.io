@@ -119,6 +119,128 @@ education:
       Thesis Supervisor: [Prof. Kayode (P.) Ayodele](https://www.linkedin.com/in/kayode-ayodele-5a7b6aa7/)
 
 work:
+  - position: Postdoctoral Researcher
+    company_name: CREATIS - INSA Lyon (France)
+    company_url: 'https://www.creatis.insa-lyon.fr/site/en'
+    icon: ''
+    date_start: 2024-11-04
+    date_end: 2026-10-31
+    summary: |
+      Research on _Multimodal learning on graphs and clinical data for pulmonary embolism risk stratification models_.
+
+      Advisors:
+      * [Odyssée Merveille](https://www.creatis.insa-lyon.fr/~merveille/) (Associate Professor -- INSA Lyon)
+      * [Johannes Lutzeyer](https://johanneslutzeyer.com/) (Associate Professor -- École Polytechnique)
+      * [Thomas Lampert](https://sites.google.com/site/tomalampert/home) (Full Professor -- Université de Strasbourg)
+
+  - position: Research Engineer
+    company_name: CREATIS - INSA Lyon (France)
+    company_url: 'https://www.creatis.insa-lyon.fr/site/en'
+    icon: ''
+    date_start: 2024-06-01
+    date_end: 2024-08-31
+    summary: |
+      Finalized a research paper started during my thesis.
+
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python & PyTorch
+        description: ''
+        # percent: 95
+        icon: code-bracket
+      - name: Machine Learning
+        description: ''
+        # percent: 100
+        icon: chart-bar
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+    # TODO: Use icon packs rather than pre-downloaded assets
+    # TODO: Automtically switch icon style to be consistent with light/dark theme
+      - name: Working Out
+        description: ''
+        # percent: 80
+        icon: custom/dumbbell-solid-full
+      - name: Cycling
+        description: ''
+        # percent: 90
+        icon: custom/bicycle-solid-full
+      - name: Cooking
+        description: ''
+        # percent: 70
+        icon: custom/kitchen-set-solid-full
+
+languages:
+  - name: French
+    percent: 100
+  - name: English
+    percent: 90
+
+# Awards.
+#   Add/remove as many awards below as you like.
+#   Only `title`, `awarder`, and `date` are required.
+#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+awards:
+  - title: Scientific Distinction
+    url: https://www.linkedin.com/pulse/c%C3%A9r%C3%A9monie-en-lhonneur-de-la-recherche-2026-5-histoires-qui-racontent-gx6gf/
+    date: '2026-06-12'
+    awarder: INSA Lyon
+    icon: hero/trophy
+    summary: |
+      One (1) of 26 annual distinctions.
+  - title: France-Quebec Joint Thesis Award
+    url: https://www.acfas.ca/prix-concours/prix-partenaires
+    date: '2025-11-20'
+    awarder: Ministry of International Relations and La Francophonie of Quebec
+    icon: hero/trophy
+    summary: |
+      Annual laureate from Quebec: Best thesis produced within the framework of a Franco-Quebec joint thesis supervision agreement.
+  - title: Best Doctoral Thesis Award - Medicine and Health Sciences
+    url: https://www.usherbrooke.ca/recherche/fr/etudier/pourquoi-choisir-udes/reconnaissance-reussites-etudiantes/concours-diffusion-travaux/meilleure-these-doctorat
+    date: '2025-04-30'
+    awarder: Université de Sherbrooke
+    icon: hero/trophy
+    summary: |
+      Annual award in each of the three major research areas: Natural sciences and engineering, health sciences and arts, and humanities and social sciences.
+  - title: Honor Roll
+    date: '2024-10-01'
+    awarder: Université de Sherbrooke, Faculty of Science
+    icon: hero/academic-cap
+    summary: |
+      Annual honor roll for graduate students at the Faculty of Science.
+  - title: Scientific Distinction
+    url: https://linkedin.com/feed/update/urn:li:activity:7138793315134500864
+    date: '2023-12-01'
+    awarder: INSA Lyon
+    icon: hero/trophy
+    summary: |
+      One (1) of 18 annual distinctions.
+  - title: Louis-Berlinguet “Relève étoile” Award
+    url: https://frq.gouv.qc.ca/en/story-and-report/releve-etoile-louis-berlinguet-avril-2023/
+    date: '2023-04-01'
+    awarder: Fonds de Recherche - Nature et Technologies (FRQNT)
+    icon: hero/trophy
+    summary: |
+      One (1) award a month across Quebec for high-quality, high-impact publications by young researchers in/from Quebec.
+  - title: Gérard-Houdeville award
+    url: https://www.usherbrooke.ca/informatique/actualites/prix-et-distinctions/mentions-excellence
+    date: '2019-06-20'
+    awarder: Université de Sherbrooke, Department of Computer Science
+    icon: hero/academic-cap
+    summary: |
+      Undergraduate valedictorian for the B.Sc. in computer science.
+---
+
+ I am a PhD researcher in Computer Science at NTNU and an active member of the [Norwegian Open AI Lab (NAIL)](https://www.ntnu.edu/ailab), working on **representation learning and intelligent autonomous systems**, with a particular focus on learning robust representations from complex temporal and multimodal data. I am supervised by [Kerstin Bach](https://www.ntnu.edu/employees/kerstin.bach) and [Gavin Taylor](https://www.usna.edu/Users/cs/taylor/). My research has been published at venues including ICML and ECAI, and has recently been nominated for a Best Paper Award at ECML. My work explores self-supervised learning, contrastive learning, and world models for applications in anomaly detection, predictive maintenance, and robotics. Previously, I received a Master’s degree in Electrical and Computer Engineering from Carnegie Mellon University, where I specialized in applied machine learning and interned at [TechnoServe](https://www.technoserve.org/) with [Dave Hale](https://www.technoserve.org/blog/authors/dave-hale/). I also hold an **Erasmus Mundus Joint Master’s degree in Marine and Maritime Intelligent Robotics** ([MIR](https://www.master-mir.eu/)) from Université de Toulon and NTNU, co-funded by the [EU Erasmus+ Programme](https://erasmus-plus.ec.europa.eu/), during which I also interned at [Alteia](https://www.alteia.com/) with [Nicola Luminari](https://www.linkedin.com/in/nicola-luminari-0a873a31/). I received my Bachelor’s degree in **Electronic and Electrical Engineering**, with a minor in **Control and Instrumentation**.
+
+<!-- My broader research interests lie at the intersection of **machine learning, computer vision, robotics, and intelligent systems**, with a focus on developing AI systems that can learn useful representations from real-world data and operate robustly in complex environments. -->
+
+
+<!-- work:
   
   - position: Teaching Assistant - Artificial Intelligence Programming
     company_name: NTNU Trondheim
@@ -293,4 +415,4 @@ awards:
 
 <!-- My broader research interests lie at the intersection of **machine learning, computer vision, robotics, and intelligent systems**, with a focus on developing AI systems that can learn useful representations from real-world data and operate robustly in complex environments. -->
 
-
+ -->
