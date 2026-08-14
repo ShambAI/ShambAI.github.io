@@ -228,54 +228,63 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Scientific Distinction
-    url: https://www.linkedin.com/pulse/c%C3%A9r%C3%A9monie-en-lhonneur-de-la-recherche-2026-5-histoires-qui-racontent-gx6gf/
-    date: '2026-06-12'
-    awarder: INSA Lyon
-    icon: hero/trophy
-    summary: |
-      One (1) of 26 annual distinctions.
-  - title: France-Quebec Joint Thesis Award
-    url: https://www.acfas.ca/prix-concours/prix-partenaires
-    date: '2025-11-20'
-    awarder: Ministry of International Relations and La Francophonie of Quebec
-    icon: hero/trophy
-    summary: |
-      Annual laureate from Quebec: Best thesis produced within the framework of a Franco-Quebec joint thesis supervision agreement.
-  - title: Best Doctoral Thesis Award - Medicine and Health Sciences
-    url: https://www.usherbrooke.ca/recherche/fr/etudier/pourquoi-choisir-udes/reconnaissance-reussites-etudiantes/concours-diffusion-travaux/meilleure-these-doctorat
-    date: '2025-04-30'
-    awarder: Université de Sherbrooke
-    icon: hero/trophy
-    summary: |
-      Annual award in each of the three major research areas: Natural sciences and engineering, health sciences and arts, and humanities and social sciences.
-  - title: Honor Roll
+  - title: Best Poster Award - NorwAI Innovate 2024
     date: '2024-10-01'
-    awarder: Université de Sherbrooke, Faculty of Science
-    icon: hero/academic-cap
-    summary: |
-      Annual honor roll for graduate students at the Faculty of Science.
-  - title: Scientific Distinction
-    url: https://linkedin.com/feed/update/urn:li:activity:7138793315134500864
-    date: '2023-12-01'
-    awarder: INSA Lyon
+    awarder: Norwegian Research Center for AI Innovation (NorwAI)
     icon: hero/trophy
     summary: |
-      One (1) of 18 annual distinctions.
-  - title: Louis-Berlinguet “Relève étoile” Award
-    url: https://frq.gouv.qc.ca/en/story-and-report/releve-etoile-louis-berlinguet-avril-2023/
-    date: '2023-04-01'
-    awarder: Fonds de Recherche - Nature et Technologies (FRQNT)
+      Awarded Best Poster at NorwAI Innovate 2024 for research presented at the annual NorwAI conference.
+
+  - title: Erasmus Mundus Joint Master’s Degree Scholarship
+    url: https://www.master-mir.eu/
+    date: '2021-07-01'
+    awarder: Erasmus+ Programme of the European Union
     icon: hero/trophy
     summary: |
-      One (1) award a month across Quebec for high-quality, high-impact publications by young researchers in/from Quebec.
-  - title: Gérard-Houdeville award
-    url: https://www.usherbrooke.ca/informatique/actualites/prix-et-distinctions/mentions-excellence
-    date: '2019-06-20'
-    awarder: Université de Sherbrooke, Department of Computer Science
+      Awarded a highly competitive Erasmus Mundus Partner Country scholarship to pursue the Erasmus Mundus Joint Master’s in Marine and Maritime Intelligent Robotics (EMJMD MIR), covering tuition, travel, installation, and living expenses for up to 24 months. Acceptance rate: 5.9%.
+
+  - title: NITDA Scholarship
+    url: https://nitda.gov.ng/
+    date: '2020-09-01'
+    awarder: National Information Technology Development Agency (NITDA)
+    icon: hero/trophy
+    summary: |
+      Competitive national scholarship awarded to pursue a Master’s degree in Information Technology. Selection included a national aptitude test, with one awardee selected per state and the FCT at the Master’s level. Acceptance rate: <1%.
+
+  - title: Carnegie Institute of Technology (CIT) Dean’s Fellowship
+    date: '2020-06-01'
+    awarder: Carnegie Mellon University
+    icon: hero/trophy
+    summary: |
+      Fellowship covering over 80% of tuition fees for the 2020/21 academic year at Carnegie Mellon University Africa.
+
+  - title: MTN Foundation Youth Entrepreneurship Development Program
+    date: '2020-02-01'
+    awarder: MTN Foundation
+    icon: hero/trophy
+    summary: |
+      Selected among the top 50 participants nationwide to develop and pitch a business idea, subsequently receiving a grant for Pacific Aquaculture.
+
+  - title: MTN Foundation Science & Technology Scholarship
+    date: '2014-11-01'
+    awarder: MTN Foundation
+    icon: hero/trophy
+    summary: |
+      Competitive undergraduate scholarship awarded to high-performing Nigerian students in science and technology disciplines, covering tuition, books, and living expenses.
+
+  - title: Agbami Medical & Engineering Professional Scholarship
+    date: '2013-09-01'
+    awarder: Star Deep Water Petroleum Limited and Agbami Partners
+    icon: hero/trophy
+    summary: |
+      Competitive merit-based scholarship awarded to undergraduate students in engineering and medical disciplines, covering tuition, accommodation, and living expenses.
+
+  - title: Valedictorian
+    date: '2010-06-01'
+    awarder: YARO College
     icon: hero/academic-cap
     summary: |
-      Undergraduate valedictorian for the B.Sc. in computer science.
+      Best graduating student of the school.
 ---
 
  I am a PhD researcher in Computer Science at NTNU and an active member of the [Norwegian Open AI Lab (NAIL)](https://www.ntnu.edu/ailab), working on **representation learning and intelligent autonomous systems**, with a particular focus on learning robust representations from complex temporal and multimodal data. I am supervised by [Kerstin Bach](https://www.ntnu.edu/employees/kerstin.bach) and [Gavin Taylor](https://www.usna.edu/Users/cs/taylor/). My research has been published at venues including ICML and ECAI, and has recently been nominated for a Best Paper Award at ECML. My work explores self-supervised learning, contrastive learning, and world models for applications in anomaly detection, predictive maintenance, and robotics. Previously, I received a Master’s degree in Electrical and Computer Engineering from Carnegie Mellon University, where I specialized in applied machine learning and interned at [TechnoServe](https://www.technoserve.org/) with [Dave Hale](https://www.technoserve.org/blog/authors/dave-hale/). I also hold an **Erasmus Mundus Joint Master’s degree in Marine and Maritime Intelligent Robotics** ([MIR](https://www.master-mir.eu/)) from Université de Toulon and NTNU, co-funded by the [EU Erasmus+ Programme](https://erasmus-plus.ec.europa.eu/), during which I also interned at [Alteia](https://www.alteia.com/) with [Nicola Luminari](https://www.linkedin.com/in/nicola-luminari-0a873a31/). I received my Bachelor’s degree in **Electronic and Electrical Engineering**, with a minor in **Control and Instrumentation**.
