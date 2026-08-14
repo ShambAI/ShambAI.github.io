@@ -119,28 +119,71 @@ education:
       Thesis Supervisor: [Prof. Kayode (P.) Ayodele](https://www.linkedin.com/in/kayode-ayodele-5a7b6aa7/)
 
 work:
-  - position: Postdoctoral Researcher
-    company_name: CREATIS - INSA Lyon (France)
-    company_url: 'https://www.creatis.insa-lyon.fr/site/en'
+  
+  - position: Teaching Assistant - Artificial Intelligence Programming
+    company_name: NTNU Trondheim
+    company_url: 'https://www.ntnu.edu'
     icon: ''
-    date_start: 2024-11-04
-    date_end: 2026-10-31
+    date_start: 2026-01-01
+    date_end: 2026-06-30
     summary: |
-      Research on _Multimodal learning on graphs and clinical data for pulmonary embolism risk stratification models_.
+      Evaluated projects on _JAX-based Controller and  MuZero Knockof_ for 4th-year over 100 Computer Science students.
 
-      Advisors:
-      * [Odyssée Merveille](https://www.creatis.insa-lyon.fr/~merveille/) (Associate Professor -- INSA Lyon)
-      * [Johannes Lutzeyer](https://johanneslutzeyer.com/) (Associate Professor -- École Polytechnique)
-      * [Thomas Lampert](https://sites.google.com/site/tomalampert/home) (Full Professor -- Université de Strasbourg)
+      Course: [Artificial Intelligence Programming - IT3105](https://www.ntnu.edu/studies/courses/IT3105/2025#tab=omEmnet)
 
-  - position: Research Engineer
-    company_name: CREATIS - INSA Lyon (France)
-    company_url: 'https://www.creatis.insa-lyon.fr/site/en'
+      Course instructor: [Massimiliano Ruocco](https://www.sintef.no/en/all-employees/employee/massimiliano.ruocco/)
+
+
+  - position: Teaching Assistant - Big Data Architecture
+    company_name: NTNU Trondheim
+    company_url: 'https://www.ntnu.edu'
     icon: ''
-    date_start: 2024-06-01
-    date_end: 2024-08-31
+    date_start: 2026-01-01
+    date_end: 2026-06-30
     summary: |
-      Finalized a research paper started during my thesis.
+      Developed and supervised projects on _Spark, LSH, MinHash, DGIM, Bloom filters, Flajolet-Martin, AdWords, and recommender systems_ for over 100 4th-year Computer Science students.
+
+      Course: [Big Data Architecture - TDT4305](https://www.ntnu.no/studier/emner/TDT4305/2025#tab=omEmnet)
+
+      Course instructor: [Knut Magne Risvik](https://www.microsoft.com/en-us/research/people/knutmr/)
+
+  - position: Computer Vision Intern (Master's Thesis)
+    company_name: Alteia
+    company_url: 'https://www.alteia.com/'
+    icon: ''
+    date_start: 2023-02-01
+    date_end: 2023-08-31
+    summary: |
+      Research on _self-supervised learning and generative adversarial networks_ for computer vision.
+
+      Developed and evaluated self-supervised pretext tasks including _inpainting, colorization, and reconstruction_, achieving a 6.5% improvement in downstream classification accuracy through pretraining and transfer learning.
+
+      Supervisor: [Nicola Luminari](https://www.linkedin.com/in/nicola-luminari-0a873a31/)
+
+
+  - position: Graduate Teaching Assistant
+    company_name: Carnegie Mellon University Africa
+    company_url: 'https://www.cmu.edu/africa/'
+    icon: ''
+    date_start: 2021-08-01
+    date_end: 2021-12-31
+    summary: |
+      Teaching assistant for _Applied Computer Vision (18-799-RW)_, facilitating weekly tutorials and office hours for 15 graduate students and contributing to assessment and grading.
+
+      Course instructor: [Dr. Suryaprakash "Surya" Kompalli](https://www.ece.cmu.edu/directory/bios/kompalli-suryaprakash.html)
+
+  - position: Software Engineer
+    company_name: TechnoServe
+    company_url: 'https://www.technoserve.org/'
+    icon: ''
+    date_start: 2021-05-01
+    date_end: 2021-11-30
+    summary: |
+      Developed and deployed a web dashboard for satellite-based visualization and analysis of cashew plantations in Benin.
+
+      Integrated ground statistics from 1,900 plantations with geospatial shapefiles and GeoTIFF data, covering 8 departments and 51 communes.
+
+      Supervisor: [Dave Hale](https://www.technoserve.org/blog/authors/dave-hale/)
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -414,5 +457,3 @@ awards:
  I am a PhD researcher in Computer Science at NTNU and an active member of the [Norwegian Open AI Lab (NAIL)](https://www.ntnu.edu/ailab), working on **representation learning and intelligent autonomous systems**, with a particular focus on learning robust representations from complex temporal and multimodal data. I am supervised by [Kerstin Bach](https://www.ntnu.edu/employees/kerstin.bach) and [Gavin Taylor](https://www.usna.edu/Users/cs/taylor/). My research has been published at venues including ICML and ECAI, and has recently been nominated for a Best Paper Award at ECML. My work explores self-supervised learning, contrastive learning, and world models for applications in anomaly detection, predictive maintenance, and robotics. Previously, I received a Master’s degree in Electrical and Computer Engineering from Carnegie Mellon University, where I specialized in applied machine learning and interned at [TechnoServe](https://www.technoserve.org/) with [Dave Hale](https://www.technoserve.org/blog/authors/dave-hale/). I also hold an **Erasmus Mundus Joint Master’s degree in Marine and Maritime Intelligent Robotics** ([MIR](https://www.master-mir.eu/)) from Université de Toulon and NTNU, co-funded by the [EU Erasmus+ Programme](https://erasmus-plus.ec.europa.eu/), during which I also interned at [Alteia](https://www.alteia.com/) with [Nicola Luminari](https://www.linkedin.com/in/nicola-luminari-0a873a31/). I received my Bachelor’s degree in **Electronic and Electrical Engineering**, with a minor in **Control and Instrumentation**.
 
 <!-- My broader research interests lie at the intersection of **machine learning, computer vision, robotics, and intelligent systems**, with a focus on developing AI systems that can learn useful representations from real-world data and operate robustly in complex environments. -->
-
- -->
