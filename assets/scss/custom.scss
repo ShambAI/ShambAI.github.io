@@ -1,0 +1,12 @@
+/* Replace underline with colored highlight on links */
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid currentColor;
+    transition: background-color 0.2s ease;
+  }
+  
+a:hover {
+    background-color: rgba(0, 188, 212, 0.15); /* adjust color to match your theme */
+    border-bottom: none;
+  }

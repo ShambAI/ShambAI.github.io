@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV (French)
-        url: uploads/painchaud_nathan_cv.pdf
+      # button:
+      #   text: Download CV (French)
+      #   url: uploads/painchaud_nathan_cv.pdf
       headings:
         about: ''
         education: ''

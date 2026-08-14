@@ -58,3 +58,9 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+extensions:
+  cms:
+    branch: main
+  custom_css:
+    - css/custom.css
