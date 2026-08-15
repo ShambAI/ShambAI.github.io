@@ -36,5 +36,5 @@ links:
 - type: pdf
   url: https://arxiv.org/pdf/2505.14296
 - name: arXiv
-  url: https://arxiv.org/abs/2606.25956
+  url: https://arxiv.org/abs/2505.14296
 ---
