@@ -42,7 +42,7 @@ featured: true
 links:
 
 - type: pdf
-  url: https://arxiv.org/pdf/2606.xxxx
+  url: http://shambai.github.io/uploads/shamba_cpred_2026.pdf
 - name: arXiv
   url: https://arxiv.org/abs/2606.xxxx
 - type: code

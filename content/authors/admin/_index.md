@@ -45,7 +45,7 @@ profiles:
   # - icon: academicons/orcid
   #   url: https://orcid.org/0000-0001-8269-5704
   - icon: arrow-down-tray
-    url: uploads/painchaud_nathan_cv.pdf
+    url: uploads/kazeem_shamba_cv.pdf
 
 interests:
   - Representation Learning
