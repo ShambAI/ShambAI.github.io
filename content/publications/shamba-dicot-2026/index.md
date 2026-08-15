@@ -40,8 +40,8 @@ featured: true
 #   ids:
 #     doi: 
 links:
-# - type: poster
-#   url: https://icml.cc/media/PosterPDFs/ICML%202026/66203.png
+- type: poster
+  url: https://icml.cc/media/PosterPDFs/ICML%202026/66203.png
 - type: pdf
   url: https://openreview.net/pdf?id=5ooFLqHTo4
 - name: arXiv
