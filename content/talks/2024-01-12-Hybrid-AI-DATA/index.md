@@ -26,7 +26,7 @@ all_day: false
 authors:
   - admin
 
-tags: [seminar]
+tags: [Hybrid AI and DATA WP Meeting]
 
 # Is this a featured talk? (true/false)
 featured: false

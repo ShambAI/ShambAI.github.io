@@ -27,7 +27,7 @@ all_day: false
 authors:
   - admin
 
-tags: [seminar]
+tags: [Catch-IDI event]
 
 # Is this a featured talk? (true/false)
 featured: true

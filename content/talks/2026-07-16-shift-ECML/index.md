@@ -1,7 +1,7 @@
 ---
 title: Learning by Shifting - Temporal View Construction for Time Series Contrastive Learning
 
-event: ECML PKDD Conference
+event: ECML PKDD 2026 Conference
 
 location: Naples (Italy)
 

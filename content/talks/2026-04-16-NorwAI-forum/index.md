@@ -1,7 +1,7 @@
 ---
-title: Contrastive Learning in Time Series
+title: Representation Learning in Sensor DATA
 
-event: Forum
+event: NorwAI Forum 2025 & 2026
 
 location: NTNU Gloshaugen Campus, Trondheim (Norway)
 # address:
@@ -11,8 +11,8 @@ location: NTNU Gloshaugen Campus, Trondheim (Norway)
 #   postcode: ''
 #   country: France
 
-summary: Presentation on Contrastive Learning in Time Series.
-abstract: Presentation on Contrastive Learning in Time Series.
+summary: Presentation on Representation Learning in Sensor DATA.
+abstract: Presentation on Representation Learning in Sensor DATA.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -26,7 +26,7 @@ all_day: false
 authors:
   - admin
 
-tags: [seminar]
+tags: [NorwAI Forum]
 
 # Is this a featured talk? (true/false)
 featured: true
@@ -36,8 +36,11 @@ image:
   preview_only: true
 
 links:
-  - type: slides
+  - name: slides 2025
+    url: /slides/DynaCL_Presentation_NorwAI_forum.pdf
+  - name: slides 2026
     url: /slides/2026-04-16-NorwAI-forum.pdf
+  
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -47,4 +50,4 @@ links:
 projects:
 ---
 
-{{< slideshow "/slides/2026-04-16-NorwAI-forum.pdf" >}}
+{{< slideshow "/slides/DynaCL_Presentation_NorwAI_forum.pdf" >}}

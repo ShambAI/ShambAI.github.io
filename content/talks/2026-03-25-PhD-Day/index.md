@@ -26,7 +26,7 @@ all_day: false
 authors:
   - admin
 
-tags: [seminar]
+tags: [PhD Day seminar]
 
 # Is this a featured talk? (true/false)
 featured: true
