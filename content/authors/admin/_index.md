@@ -170,7 +170,7 @@ work:
     summary: |
       Teaching assistant for _Applied Computer Vision (18-799-RW)_, facilitating weekly tutorials and office hours for 15 graduate students and contributing to assessment and grading.
 
-      Course instructor: [Dr. Suryaprakash "Surya" Kompalli](https://www.ece.cmu.edu/directory/bios/kompalli-suryaprakash.html)
+      Course instructor: Late [Dr. Suryaprakash "Surya" Kompalli](https://www.ece.cmu.edu/directory/bios/kompalli-suryaprakash.html)
 
   - position: Software Engineer
     company_name: TechnoServe
@@ -221,9 +221,9 @@ languages:
   - name: English
     percent: 100
   - name: Norwegian
-    percent: 50
+    percent: 40
   - name: French
-    percent: 30
+    percent: 20
 
 # Awards.
 #   Add/remove as many awards below as you like.

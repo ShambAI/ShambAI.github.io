@@ -15,8 +15,8 @@ date: '2025-05-20'
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: Arxiv*
-publication_short: Arxiv
+publication: Preprint Arxiv*
+publication_short: Preprint Arxiv
 
 abstract: This paper explores the use of contrastive learning and generative adversarial networks for generating realistic underwater images from synthetic images with uniform lighting. We investigate the performance of image translation models for generating realistic underwater images using the VAROS dataset. Two key evaluation metrics, Fréchet Inception Distance (FID) and Structural Similarity Index Measure (SSIM), provide insights into the trade-offs between perceptual quality and structural preservation. For paired image translation, pix2pix achieves the best FID scores due to its paired supervision and PatchGAN discriminator, while the autoencoder model attains the highest SSIM, suggesting better structural fidelity despite producing blurrier outputs. Among unpaired methods, CycleGAN achieves a competitive FID score by leveraging cycle-consistency loss, whereas CUT, which replaces cycle-consistency with contrastive learning, attains higher SSIM, indicating improved spatial similarity retention. Notably, incorporating depth information into CUT results in the lowest overall FID score, demonstrating that depth cues enhance realism. However, the slight decrease in SSIM suggests that depth-aware learning may introduce structural variations.
 

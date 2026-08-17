@@ -31,14 +31,10 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: ' Ultimate Research Goal 💡'
       subtitle: ''
       text: |-
-        I'm a junior researcher working on applications of AI to healthcare data. I am mostly interested in how to combine the complex multimodal data, especially the rich imaging data, to improve disease characterization.
-
-        From my background in computer science, I've also kept a strong interest in the technical side of things. I try my best to be active on GitHub and to contribute to the open-source projects that I use, either professionally or personally.
-
-        Don't hesitate to reach out to collaborate 😃
+          My overarching research goal is to build intelligent systems and agents that can perceive, learn, and act autonomously in the real world.
     design:
       columns: '1'
   - block: collection

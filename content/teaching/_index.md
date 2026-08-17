@@ -14,7 +14,7 @@ sections:
   - block: collection
     id: schools
     content:
-      title: Specialized Schools
+      title: Teaching Assistant Positions
       filters:
         tag: Schools
         kinds:
@@ -24,18 +24,18 @@ sections:
       show_read_time: false
       show_date: false
       show_read_more: false
-      columns: 1
+      columns: 3
 
-  - block: collection
-    id: ta
-    content:
-      title: Teaching Assistant Positions
-      filters:
-        tag: TA
-      count: 0
-    design:
-      view: citation
-      show_read_time: false
-      show_date: false
-      show_read_more: false
+  # - block: collection
+  #   id: ta
+  #   content:
+  #     title: Teaching Assistant Positions
+  #     filters:
+  #       tag: TA
+  #     count: 0
+  #   design:
+  #     view: citation
+  #     show_read_time: false
+  #     show_date: false
+  #     show_read_more: false
 ---
