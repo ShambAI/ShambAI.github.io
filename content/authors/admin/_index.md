@@ -214,7 +214,7 @@ skills:
         icon: custom/bicycle-solid-full
       - name: Cooking
         description: ''
-        # percent: 70
+        # percent: 90
         icon: custom/kitchen-set-solid-full
 
 languages:
