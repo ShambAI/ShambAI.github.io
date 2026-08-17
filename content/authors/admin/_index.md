@@ -64,7 +64,7 @@ education:
 
       Advisors:
       * [Kerstin Bach](https://www.ntnu.edu/employees/kerstin.bach) (Full Professor -- NTNU Trondheim)
-      * [Gavin Taylor](https://www.usna.edu/Users/cs/taylor/) (Full Professor -- US Naval Academy Lyon)
+      * [Gavin Taylor](https://www.usna.edu/Users/cs/taylor/) (Full Professor -- US Naval Academy)
       * [Erlend Aune](https://www.ntnu.edu/employees/erlend.aune) (Associate Professor -- NTNU Trondheim)
       
       Mention: _NorwAI 2024 Best Poster Award_
