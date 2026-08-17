@@ -55,7 +55,7 @@ interests:
 
 education:
   - area: PhD Computer Science
-    institution: NTNU Trondheim (Norway)
+    institution: NTNU Trondheim
     icon: ""
     date_start: 2023-09-01
     date_end: 2027-09-01
@@ -105,7 +105,7 @@ education:
       TA Fall 2021 Applied Computer Vision  18799-RW under late [Dr. Suryaprakash "Surya" Kompalli](https://www.ece.cmu.edu/directory/bios/kompalli-suryaprakash.html)
 
   - area: BS Electronic and Electrical Engineering
-    institution: Obafemi Awolowo University (Nigeria)
+    institution: Obafemi Awolowo University
     icon: ""
     date_start: 2013-02-20
     date_end: 2018-02-20
