@@ -17,7 +17,7 @@ abstract: Supervised field immunization activities as a Ward Accountability Offi
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2026-06-17'
+date: '2019-10-01'
 # date_end: '2024-05-06T15:00:00Z'
 all_day: false
 
