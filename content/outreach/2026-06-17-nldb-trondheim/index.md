@@ -48,5 +48,5 @@ projects:
 
 ![Featured image](/images/nldb/NLDB1.jpg)
 ![Featured image](/images/nldb/NLDB4.jpg)
-![Featured image](/images/nldb/NLDB2.jpg)
+![Featured image](/images/nldb/NLDB2.JPG)
 
