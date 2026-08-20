@@ -52,6 +52,7 @@ interests:
   - Self-supervised learning
   - Temporal Features/Time Series
   - Robot Learning
+  - Swarm Intelligence
 
 education:
   - area: PhD Computer Science
