@@ -1,9 +1,79 @@
-<div class="news-container">
-
+<style>
+    .news-container {
+      display: block;
+      width: 800px;  /* FIXED width - never changes */
+      max-width: 800px;
+      min-width: 800px;
+      margin: 0 auto;
+      border: 2px solid var(--color-primary-500);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-sizing: border-box;
+      background: rgba(128, 128, 128, 0.08);
+      overflow-x: auto;  /* Adds scroll on small screens instead of resizing */
+    }
+  
+    .news-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      min-height: 2.5rem;
+      align-items: center;
+    }
+  
+    .news-tabs button {
+      padding: 0.4rem 1.2rem;
+      border: 2px solid var(--color-primary-500);
+      border-radius: 999px;
+      background: transparent;
+      color: var(--color-primary-500);
+      cursor: pointer;
+      font-weight: 600;
+      min-width: 5rem;
+      flex-shrink: 0;
+      transition: all 0.2s ease;
+    }
+  
+    .news-tabs button.active {
+      background: var(--color-primary-500);
+      color: white;
+    }
+  
+    .news-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .news-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+  
+    .news-date {
+      min-width: 6rem;
+      color: gray;
+      font-size: 0.85rem;
+      padding-top: 0.15rem;
+      flex-shrink: 0;
+    }
+  
+    .news-text {
+      font-size: 0.95rem;
+    }
+  </style>
+  
+  <div class="news-container">
+  
     <!-- Year tabs -->
     <div class="news-tabs">
   
-      <button id="btn-2024" onclick="showYear('2024')">
+      <button id="btn-2024" onclick="showYear('2024')" class="active">
         2024
       </button>
   
@@ -11,37 +81,33 @@
         2025
       </button>
   
-      <button id="btn-2026" onclick="showYear('2026')" class="active">
+      <button id="btn-2026" onclick="showYear('2026')">
         2026
       </button>
   
     </div>
   
-  
     <!-- ========================= -->
     <!-- 2024 -->
     <!-- ========================= -->
   
-    <div id="news-2024" class="news-year-panel" style="display: none;">
+    <div id="news-2024" class="news-year-panel">
   
       <ul class="news-list">
   
         <li class="news-item">
+          <span class="news-date">Aug 2024</span>
+          <span class="news-text">🏆 <strong>Di-COT</strong> accepted at <strong>ICML 2024</strong>, Seoul, South Korea.</span>
+        </li>
   
-          <span class="news-date">
-            Sep 2024
-          </span>
-  
-          <span>
-            🚀 Started PhD at <strong>NTNU Trondheim</strong>.
-          </span>
-  
+        <li class="news-item">
+          <span class="news-date">Jun 2024</span>
+          <span class="news-text">🎤 Presented poster at <strong>ICML 2024</strong>.</span>
         </li>
   
       </ul>
   
     </div>
-  
   
     <!-- ========================= -->
     <!-- 2025 -->
@@ -52,67 +118,30 @@
       <ul class="news-list">
   
         <li class="news-item">
-  
-          <span class="news-date">
-            Nov 2025
-          </span>
-  
-          <span>
-            📄 Paper submitted to <strong>ICML 2026</strong>.
-          </span>
-  
+          <span class="news-date">Nov 2025</span>
+          <span class="news-text">📄 Paper submitted to <strong>ICML 2026</strong>.</span>
         </li>
   
-  
         <li class="news-item">
-  
-          <span class="news-date">
-            Sep 2025
-          </span>
-  
-          <span>
-            🎓 Passed PhD qualifying exam.
-          </span>
-  
+          <span class="news-date">Sep 2025</span>
+          <span class="news-text">🎓 Passed PhD qualifying exam.</span>
         </li>
   
       </ul>
   
     </div>
   
-  
     <!-- ========================= -->
     <!-- 2026 -->
     <!-- ========================= -->
   
-    <div id="news-2026" class="news-year-panel">
+    <div id="news-2026" class="news-year-panel" style="display: none;">
   
       <ul class="news-list">
   
         <li class="news-item">
-  
-          <span class="news-date">
-            Aug 2026
-          </span>
-  
-          <span>
-            🏆 <strong>Di-COT</strong> accepted at
-            <strong>ICML 2026</strong>, Seoul, South Korea.
-          </span>
-  
-        </li>
-  
-  
-        <li class="news-item">
-  
-          <span class="news-date">
-            Jun 2026
-          </span>
-  
-          <span>
-            🎤 Presented poster at <strong>ICML 2026</strong>.
-          </span>
-  
+          <span class="news-date">Sep 2026</span>
+          <span class="news-text">🚀 Started PhD at <strong>NTNU Trondheim</strong>.</span>
         </li>
   
       </ul>
@@ -121,231 +150,38 @@
   
   </div>
   
-  
-  <style>
-  
-  .news-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-  
-    border: 2px solid var(--color-primary-500);
-    border-radius: 12px;
-  
-    padding: 1.25rem;
-  
-    box-sizing: border-box;
-  }
-  
-  
-  /* ========================= */
-  /* Year tabs */
-  /* ========================= */
-  
-  .news-tabs {
-    display: flex;
-    gap: 0.5rem;
-  
-    margin-bottom: 1.5rem;
-  
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  
-  .news-tabs button {
-    padding: 0.4rem 1.2rem;
-  
-    border: 2px solid var(--color-primary-500);
-    border-radius: 999px;
-  
-    background: transparent;
-    color: var(--color-primary-500);
-  
-    cursor: pointer;
-  
-    font-weight: 600;
-  
-    min-width: 5rem;
-  
-    transition: all 0.2s ease;
-  }
-  
-  
-  .news-tabs button.active {
-    background: var(--color-primary-500);
-    color: white;
-  }
-  
-  
-  /* ========================= */
-  /* News list */
-  /* ========================= */
-  
-  .news-list {
-    list-style: none;
-  
-    padding: 0;
-    margin: 0;
-  
-    display: flex;
-    flex-direction: column;
-  
-    gap: 1rem;
-  }
-  
-  
-  /* ========================= */
-  /* News item */
-  /* ========================= */
-  
-  .news-item {
-    display: flex;
-  
-    gap: 1rem;
-  
-    align-items: flex-start;
-  
-    line-height: 1.5;
-  }
-  
-  
-  /* ========================= */
-  /* Date */
-  /* ========================= */
-  
-  .news-date {
-    width: 5.5rem;
-    min-width: 5.5rem;
-  
-    color: gray;
-  
-    font-size: 0.85rem;
-  
-    padding-top: 0.15rem;
-  }
-  
-  
-  /* ========================= */
-  /* Mobile */
-  /* ========================= */
-  
-  @media (max-width: 600px) {
-  
-    .news-container {
-      padding: 0.9rem;
-  
-      border-radius: 10px;
-    }
-  
-  
-    .news-tabs {
-      gap: 0.4rem;
-  
-      margin-bottom: 1rem;
-    }
-  
-  
-    .news-tabs button {
-      padding: 0.35rem 0.9rem;
-  
-      min-width: 4.2rem;
-  
-      font-size: 0.85rem;
-    }
-  
-  
-    .news-item {
-      gap: 0.6rem;
-    }
-  
-  
-    .news-date {
-      width: 4.2rem;
-      min-width: 4.2rem;
-  
-      font-size: 0.72rem;
-    }
-  
-  }
-  
-  
-  /* ========================= */
-  /* Very small screens */
-  /* ========================= */
-  
-  @media (max-width: 380px) {
-  
-    .news-container {
-      padding: 0.75rem;
-    }
-  
-  
-    .news-item {
-      gap: 0.5rem;
-    }
-  
-  
-    .news-date {
-      width: 3.8rem;
-      min-width: 3.8rem;
-  
-      font-size: 0.7rem;
-    }
-  
-  }
-  
-  </style>
-  
-  
   <script>
+    const years = ['2024', '2025', '2026'];
   
-  const years = ['2024', '2025', '2026'];
+    function showYear(year) {
   
+      // Hide all panels and reset all buttons
+      years.forEach(function (y) {
   
-  function showYear(year) {
+        const panel = document.getElementById('news-' + y);
+        const button = document.getElementById('btn-' + y);
   
-    /* Hide all panels and reset buttons */
+        if (panel) {
+          panel.style.display = 'none';
+        }
   
-    years.forEach(function (y) {
+        if (button) {
+          button.classList.remove('active');
+        }
   
-      const panel =
-        document.getElementById('news-' + y);
+      });
   
-      const button =
-        document.getElementById('btn-' + y);
+      // Show selected panel
+      const activePanel = document.getElementById('news-' + year);
+      const activeButton = document.getElementById('btn-' + year);
   
-  
-      if (panel) {
-        panel.style.display = 'none';
+      if (activePanel) {
+        activePanel.style.display = 'block';
       }
   
-  
-      if (button) {
-        button.classList.remove('active');
+      if (activeButton) {
+        activeButton.classList.add('active');
       }
   
-    });
-  
-  
-    /* Show selected panel */
-  
-    const activePanel =
-      document.getElementById('news-' + year);
-  
-    const activeButton =
-      document.getElementById('btn-' + year);
-  
-  
-    if (activePanel) {
-      activePanel.style.display = 'block';
     }
-  
-  
-    if (activeButton) {
-      activeButton.classList.add('active');
-    }
-  
-  }
-  
   </script>
