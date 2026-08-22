@@ -29,14 +29,25 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  # - block: markdown
+  #   content:
+  #     title: ' Ultimate Research Goal 💡'
+  #     subtitle: ''
+  #     text: |-
+  #         My overarching research goal is to build intelligent systems and agents that can perceive, learn, and act autonomously in the real world.
+  #   design:
+  #     columns: '1'
+      
   - block: markdown
+    id: news
     content:
-      title: ' Ultimate Research Goal 💡'
+      title: 'News & Updates 📰'
       subtitle: ''
       text: |-
-          My overarching research goal is to build intelligent systems and agents that can perceive, learn, and act autonomously in the real world.
+        {{< news >}}
     design:
       columns: '1'
+
   - block: collection
     id: publications
     content:
