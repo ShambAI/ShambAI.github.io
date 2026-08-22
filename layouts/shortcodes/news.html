@@ -23,6 +23,7 @@
       .news-tabs {
         gap: 0.3rem;
         margin-bottom: 1rem;
+        justify-content: center;  /* Center the buttons */
       }
       .news-tabs button {
         padding: 0.3rem 0.8rem;
@@ -56,6 +57,7 @@
       .news-tabs {
         gap: 0.5rem;
         margin-bottom: 1.2rem;
+        justify-content: center;  /* Center the buttons */
       }
       .news-tabs button {
         padding: 0.4rem 1rem;
@@ -89,6 +91,7 @@
       .news-tabs {
         gap: 0.5rem;
         margin-bottom: 1.5rem;
+        justify-content: center;  /* Center the buttons */
       }
       .news-tabs button {
         padding: 0.4rem 1.2rem;
@@ -115,6 +118,8 @@
       flex-wrap: wrap;
       min-height: 2.5rem;
       align-items: center;
+      justify-content: center;  /* Center the buttons by default */
+      gap: 0.5rem;  /* Added default gap */
     }
   
     .news-tabs button {
@@ -161,8 +166,20 @@
   
     <!-- Year tabs -->
     <div class="news-tabs">
+        
+      <button id="btn-2021" onclick="showYear('2021')" class="active">
+        2021
+      </button>
   
-      <button id="btn-2024" onclick="showYear('2024')" class="active">
+      <button id="btn-2022" onclick="showYear('2022')">
+        2022
+      </button>
+  
+      <button id="btn-2023" onclick="showYear('2023')">
+        2023
+      </button>
+  
+      <button id="btn-2024" onclick="showYear('2024')">
         2024
       </button>
   
@@ -177,10 +194,61 @@
     </div>
   
     <!-- ========================= -->
+    <!-- 2021 -->
+    <!-- ========================= -->
+  
+    <div id="news-2021" class="news-year-panel">
+  
+      <ul class="news-list">
+  
+        <li class="news-item">
+          <span class="news-date">[Date]</span>
+          <span class="news-text">[Your 2021 news here]</span>
+        </li>
+  
+      </ul>
+  
+    </div>
+  
+    <!-- ========================= -->
+    <!-- 2022 -->
+    <!-- ========================= -->
+  
+    <div id="news-2022" class="news-year-panel" style="display: none;">
+  
+      <ul class="news-list">
+  
+        <li class="news-item">
+          <span class="news-date">[Date]</span>
+          <span class="news-text">[Your 2022 news here]</span>
+        </li>
+  
+      </ul>
+  
+    </div>
+  
+    <!-- ========================= -->
+    <!-- 2023 -->
+    <!-- ========================= -->
+  
+    <div id="news-2023" class="news-year-panel" style="display: none;">
+  
+      <ul class="news-list">
+  
+        <li class="news-item">
+          <span class="news-date">[Date]</span>
+          <span class="news-text">[Your 2023 news here]</span>
+        </li>
+  
+      </ul>
+  
+    </div>
+  
+    <!-- ========================= -->
     <!-- 2024 -->
     <!-- ========================= -->
   
-    <div id="news-2024" class="news-year-panel">
+    <div id="news-2024" class="news-year-panel" style="display: none;">
   
       <ul class="news-list">
   
@@ -240,7 +308,7 @@
   </div>
   
   <script>
-    const years = ['2024', '2025', '2026'];
+    const years = ['2021', '2022', '2023', '2024', '2025', '2026'];
   
     function showYear(year) {
   
